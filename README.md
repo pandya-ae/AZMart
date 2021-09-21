@@ -1,3 +1,2 @@
 # AZMart
- Software Design Workshop course final project
- E-commerce website
+ Software Design Workshop course final project. E-commerce website.
