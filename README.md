@@ -1,2 +1,2 @@
 # AZMart
- Software Design Workhsop course final project
+ Software Design Workshop course final project
