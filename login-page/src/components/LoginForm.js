@@ -16,7 +16,7 @@ function LoginForm({ Login, error }) {
                 <div className="left-side">
 
                     {/* AZ LOGO */}
-                    <p className="small-text">Sign in with Google</p>
+                    <p className="Google">Sign in with Google</p>
                     <p className="small-text"> ----- or sign in with email -----</p>  
                           
                     <form onSubmit={submitHandler}>

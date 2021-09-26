@@ -1,7 +1,5 @@
 // https://www.youtube.com/watch?v=91qEdc6dSUs
-/* ./src/App.js
-Attempted import error: './components/LoginForm' does not contain a default export (imported as 'LoginForm').
-*/
+
 
 import React, { useState } from 'react';
 import LoginForm from './components/LoginForm';
@@ -37,6 +35,8 @@ function App() {
   return (
     <div className="App">
       {(user.email != "") ? (
+
+        // Welcome Screen
         <div className="welcome">
           <h2>Welcome, <span>{user.email}</span></h2>
           <button onClick={Logout}>Logout</button>
